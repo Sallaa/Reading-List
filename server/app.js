@@ -7,7 +7,7 @@ const schema = require('./schema/schema')
 const app = express();
 
 mongoose.connect(
-  "connectionstring",
+  "mongodb+srv://valentin:test123@gql-4zdp6.mongodb.net/test?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
