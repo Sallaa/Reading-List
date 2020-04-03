@@ -12,7 +12,7 @@ const getBooksQuery = gql`
 `
 
 function BookList() {
-  console.log(this.props);
+  // console.log(this.props);
   return (
     <div id="main">
       <ul id="book-list">
